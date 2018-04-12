@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+.result {
+  margin-top: 10px;
+}
+.menu__list {
+  margin: 10px 0;
+}
+.menu__item {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  background-color: #bbb;
+  transition: .5s;
+  text-transform: uppercase;
+}
+.menu__item:hover {
+  background-color: #2fc5ff;
+}
+@media print {
+  .menu, button {display: none;}
+}
